@@ -1,0 +1,74 @@
+* {
+  background: #777;
+  /*box-sizing: border-box;*/
+  text-align: center;
+  padding-left: 40px;
+}
+body {
+  width: 960px;
+}
+header {
+  background: #ebebeb;
+  color: #333;
+  margin-bottom: 5px;
+  border: #333 1px solid;
+  padding: 1em;
+}
+nav {
+  background: #ebebeb;
+  color: #333;
+  margin-bottom: 5px;
+  border: #333 1px solid;
+  padding: 1em;
+}
+.section{
+  float: left;
+  width: 495px;
+  /*width: 100%;*/
+  background: #ebebeb;
+  color: #333;
+  margin-bottom: 5px;
+  border: #333 1px solid;
+  padding: 1em;
+  overflow: auto;
+  display: block;
+  clear: both;
+}
+/*I was not able to get "aside" to float right*/
+aside{
+  float: right;
+  width: 100%;
+  /*height: 200px;*/
+  /*display: inherit;*/
+  padding: 20px;
+  /*margin-right: 30px;*/
+  background: #ebebeb;
+  border: 1px solid #eee;
+}
+.article{
+  padding: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: #333 1px solid;
+}
+.box1{
+  padding: 1em;
+  border: #333 1px solid;
+  background: #ebebeb;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  /*margin-right: 30px;*/
+  /*margin-left: 30px;*/
+}
+.box2{
+  padding: 1em;
+  border: #333 1px solid;
+  background: #ebebeb;
+  /*margin-right: 30px;*/
+  /*margin-left: 30px;*/
+}
+footer{
+  padding: 20px;
+  clear: both;
+  background: #ebebeb;
+}
